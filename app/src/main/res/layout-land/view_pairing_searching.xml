@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/pairSearchView"
+              style="@style/pairing_step_layout_style"
+              android:orientation="horizontal"
+              android:keepScreenOn="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/pairing_step_layout_margin"
+        android:layout_marginBottom="@dimen/pairing_step_layout_margin"
+        android:baselineAligned="false"
+        android:layout_marginStart="@dimen/pairing_step_title_and_gif_layout_margin_start">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/search_microbit_step_3_title"
+                style="@style/pairing_step_header_style"
+                android:text="@string/searchingTitle" />
+
+            <!--pairing animation-->
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/searching_microbit_found_giffview"
+                android:layout_width="@dimen/pairing_step_1_gif_image_width"
+                android:layout_height="@dimen/pairing_step_1_gif_image_height"
+                android:layout_below="@id/search_microbit_step_3_title"
+                android:src="@drawable/pairing_pin_screen_two" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <include layout="@layout/view_pairing_searching_step"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"/>
+
+            <ProgressBar
+                android:id="@+id/searching_progress_spinner"
+                android:theme="@style/pairing_searching_horizontal_progress_bar_style"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:indeterminate="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:scaleY="@integer/pairing_searching_horizontal_progress_bar_scale"
+                android:indeterminateDuration="@integer/pairing_step_cycle_progress_bar_duration"
+                android:layout_marginStart="@dimen/pairing_searching_horizontal_progress_bar_margin"
+                android:layout_marginEnd="@dimen/pairing_searching_horizontal_progress_bar_margin" />
+
+            <!-- Pairing Confirmation buttons -->
+            <LinearLayout
+                android:id="@+id/cancel_search_microbit_step_3_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/pairing_step_button_layout_padding"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:weightSum="@integer/pairing_searching_step_button_layout_weight_sum">
+
+                <Button
+                    android:id="@+id/cancel_search_microbit_step_3_btn"
+                    style="@style/pairing_step_button_style"
+                    android:layout_weight="2"
+                    android:background="@drawable/cancel_btn"
+                    android:drawableEnd="@drawable/cancel_step_pairing_btn"
+                    android:text="@string/cancel_searching_btn_txt" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

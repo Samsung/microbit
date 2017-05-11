@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">DfuLibrary</string>
+   <string name="dfu_unknown_name">unnamed device</string>
+    
+    <string name="dfu_action_abort">Cancel</string>
+
+    <string name="dfu_status_initializing">Initializing&#8230;</string>
+    <string name="dfu_status_connecting">Finding &#8230;</string>
+    <string name="dfu_status_starting">Starting DFU&#8230;</string>
+    <string name="dfu_status_switching_to_dfu">Starting Flash mode&#8230;</string>
+    <string name="dfu_status_uploading">Flashing&#8230;</string>
+    <string name="dfu_status_uploading_part" formatted="false">Flashing part %d/%d&#8230;</string>
+    <string name="dfu_status_validating">Validating&#8230;</string>
+    <string name="dfu_status_disconnecting">Disconnecting&#8230;</string>
+    <string name="dfu_status_completed">Flashing successful</string>
+    <string name="dfu_status_aborted">Aborted</string>
+    <string name="dfu_status_aborting">Aborting&#8230;</string>
+    <string name="dfu_status_error">Flashing unsuccessful</string>
+    
+    <string name="dfu_status_connecting_msg">Finding micro:bit - %s&#8230;</string>
+    <string name="dfu_status_starting_msg">Initializing flashing process&#8230;</string>
+    <string name="dfu_status_switching_to_dfu_msg">Waiting for flash mode&#8230;</string>
+    <string name="dfu_status_uploading_components_msg">Transmitting components to %s&#8230;</string>
+    <string name="dfu_status_uploading_msg">Flashing application to %s&#8230;</string>
+    <string name="dfu_status_validating_msg">Checking the pairing code&#8230;</string>
+    <string name="dfu_status_completed_msg">Application has been send successfully.</string>
+    <string name="dfu_status_aborted_msg">Application flashing has been aborted. Please reset micro:bit and try again.</string>
+    <string name="dfu_status_disconnecting_msg">Disconnecting from %s&#8230;</string>
+    <string name="dfu_status_error_msg">Flashing unsuccessful. Please reset micro:bit and try again.</string>
+    <string name="dfu_validation_failed">Validation failed or Timeout. Please reset micro:bit and try again.</string>
+
+</resources>

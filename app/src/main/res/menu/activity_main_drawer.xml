@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- menu -->
+    <group android:id="@+id/group_nav_menu">
+        <item
+            android:id="@+id/nav_menu"
+            android:title="@string/menu_main_menu" />
+    </group>
+
+    <!-- Explore-->
+    <group android:id="@+id/group_nav_explore">
+        <item
+            android:id="@+id/nav_explore"
+            android:title="@string/menu_main_explore" />
+    </group>
+
+    <!-- About-->
+    <group android:id="@+id/group_about">
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/menu_main_about" />
+    </group>
+
+    <!-- Help -->
+    <group android:id="@+id/group_nav_help">
+        <item
+            android:id="@+id/nav_help"
+            android:title="@string/menu_main_help" />
+    </group>
+
+    <!-- Privacy & cookies-->
+    <group android:id="@+id/group_nav_privacy">
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/message_face"
+            android:title="@string/menu_main_privacy_cookies" />
+    </group>
+
+    <!-- Terms & Conditions-->
+    <group android:id="@+id/group__nav_terms_conditions">
+        <item
+            android:id="@+id/nav_terms_conditions"
+            android:icon="@drawable/message_face"
+            android:title="@string/menu_main_terms_conditions" />
+    </group>
+
+    <!-- Send us your feedback -->
+    <group android:id="@+id/menu_feedback">
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="@string/menu_main_terms_conditions" />
+    </group>
+
+    <!-- Share statistics -->
+    <group
+        android:id="@+id/menu_stats"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_shareable"
+            android:title="@string/menu_main_share_statistics"
+            />
+    </group>
+</menu>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_nav_header_custom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_gray_color"
+    android:isScrollContainer="true"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_header_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_gray_color"
+        android:orientation="vertical">
+
+        <!-- Menu-->
+        <Button
+            android:id="@+id/btn_nav_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_drawer_grey_btn"
+            android:contentDescription="@string/desc_nav_drawer_menu"
+            android:gravity="center_vertical|start"
+            android:paddingBottom="23dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:paddingTop="20dp"
+            android:text="@string/nav_draw_menu"
+            android:textAppearance="?textAppearanceListItem"
+            android:textColor="@color/white_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.25dp"
+            android:alpha="0.5"
+            android:background="@color/white_color" />
+
+        <!-- Help -->
+        <Button
+            android:id="@+id/btn_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_drawer_grey_btn"
+            android:gravity="center_vertical|start"
+            android:paddingBottom="23dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:paddingTop="20dp"
+            android:text="@string/nav_draw_help"
+            android:textAppearance="?textAppearanceListItem"
+            android:textColor="@color/white_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.25dp"
+            android:alpha="0.5"
+            android:background="@color/white_color" />
+
+        <!-- About-->
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_drawer_grey_btn"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_discover"
+            android:gravity="center_vertical|start"
+            android:paddingBottom="23dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:paddingTop="20dp"
+            android:text="@string/nav_draw_about"
+            android:textAppearance="?textAppearanceListItem"
+            android:textColor="@color/white_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.25dp"
+            android:alpha="0.5"
+            android:background="@color/white_color" />
+
+
+        <!-- Privacy & cookies -->
+        <Button
+            android:id="@+id/btn_privacy_cookies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_drawer_grey_btn"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_discover"
+            android:gravity="center_vertical|start"
+            android:paddingBottom="23dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:paddingTop="20dp"
+            android:text="@string/nav_draw_privacy_cookies"
+            android:textAppearance="?textAppearanceListItem"
+            android:textColor="@color/white_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.25dp"
+            android:alpha="0.5"
+            android:background="@color/white_color" />
+
+        <!-- Terms & Conditions -->
+        <Button
+            android:id="@+id/btn_terms_conditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_drawer_grey_btn"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_discover"
+            android:gravity="center_vertical|start"
+            android:paddingBottom="24dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:paddingTop="20dp"
+            android:text="@string/nav_draw_terms_conditions"
+            android:textAppearance="?textAppearanceListItem"
+            android:textColor="@color/white_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.25dp"
+            android:alpha="0.5"
+            android:background="@color/white_color" />
+
+        <!-- Send Feedback -->
+        <Button
+            android:id="@+id/btn_send_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_drawer_grey_btn"
+            android:gravity="center_vertical|start"
+            android:paddingBottom="23dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:paddingTop="20dp"
+            android:text="@string/nav_draw_send_feedback"
+            android:textAppearance="?textAppearanceListItem"
+            android:textColor="@color/white_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.25dp"
+            android:alpha="0.5"
+            android:background="@color/white_color" />
+
+        <!-- Share statistics-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/nav_draw_share_statistics"
+            android:importantForAccessibility="yes"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/share_statistics_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical|start"
+                android:paddingBottom="16dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="16dp"
+                android:text="@string/nav_draw_share_statistics"
+                android:textAppearance="?textAppearanceListItem"
+                android:textColor="@color/white_color" />
+
+            <CheckBox
+                android:id="@+id/share_statistics_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:checked="false"
+                android:enabled="true"
+                android:gravity="center_vertical|end"
+                android:paddingBottom="8dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:saveEnabled="true"
+                android:textColorHint="@color/white_color" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/share_statistics_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="@string/desc_share_statistics_description"
+            android:textAppearance="?textAppearanceListItem"
+            android:textColor="@color/white_color" />
+    </LinearLayout>
+
+</ScrollView>

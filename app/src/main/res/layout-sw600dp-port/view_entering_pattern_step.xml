@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--  instructions -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pairingPatternTipView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    tools:showIn="@layout/view_pairing_step_2">
+
+    <LinearLayout
+        style="@style/pairing_step_tip_layout_style"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/pair_enter_pattern_step_2"
+            style="@style/pairing_step_title_style"
+            android:text="Step 2" />
+
+        <TextView
+            android:id="@+id/pair_enter_pattern_step_2_instructions"
+            style="@style/pairing_step_tip_text_style"
+            android:contentDescription="@string/desc_enter_pattern_tip_text"
+            android:text="@string/enter_pattern_tip_text_one_line" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/oh_pretty_emoji"
+        style="@style/pairing_step_image_layout_style"
+        android:src="@drawable/emoji_entering_pattern" />
+</LinearLayout>

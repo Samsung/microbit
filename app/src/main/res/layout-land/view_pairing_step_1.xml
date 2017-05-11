@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pairTipView"
+    style="@style/pairing_step_layout_style"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/pairing_step_layout_margin"
+        android:layout_marginBottom="@dimen/pairing_step_layout_margin"
+        android:baselineAligned="false"
+        android:layout_marginStart="@dimen/pairing_step_title_and_gif_layout_margin_start">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/pairTipTitle"
+                style="@style/pairing_step_header_style"
+                android:text="@string/connect_tip_title" />
+
+            <!-- Images -->
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/pair_tip_step_1_giff"
+                android:layout_width="@dimen/pairing_step_1_gif_image_width"
+                android:layout_height="@dimen/pairing_step_1_gif_image_height"
+                android:layout_below="@id/pairTipTitle"
+                android:src="@drawable/how_to_pair_microbit" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Step description -->
+            <include layout="@layout/pair_microbit_step" />
+
+            <!-- Confirmation buttons -->
+            <include layout="@layout/pairing_tip_action_buttons"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

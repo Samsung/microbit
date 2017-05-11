@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/createProject"
+    style="@style/custom_button_layout"
+    android:layout_width="0dp"
+    android:layout_weight="@integer/project_my_scripts_button_weight"
+    android:layout_margin="@dimen/custom_button_margin"
+    android:background="@drawable/yellow_btn"
+    android:onClick="onClick"
+    tools:showIn="@layout/activity_projects">
+
+    <ImageView
+        style="@style/custom_button_image"
+        android:contentDescription="@string/txt_my_scripts_btn"
+        android:src="@drawable/ic_my_scripts" />
+
+    <TextView
+        android:id="@+id/custom_button_text"
+        style="@style/custom_button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_scripts" />
+</LinearLayout>

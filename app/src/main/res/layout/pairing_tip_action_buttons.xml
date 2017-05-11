@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Pairing Confirmation buttons -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pairTipButtonView"
+    style="@style/pairing_step_buttons_layout_style"
+    tools:showIn="@layout/view_pairing_step_1">
+
+    <Button
+        android:id="@+id/cancel_tip_step_1_btn"
+        style="@style/pairing_step_button_style"
+        android:layout_marginEnd="@dimen/pairing_step_buttons_space_margin"
+        android:background="@drawable/cancel_btn"
+        android:drawableEnd="@drawable/cancel_step_pairing_btn"
+        android:text="@string/txt_cancel_btn" />
+
+    <Button
+        android:id="@+id/ok_tip_step_1_btn"
+        style="@style/pairing_step_button_style"
+        android:layout_marginStart="@dimen/pairing_step_buttons_space_margin"
+        android:background="@drawable/green_btn"
+        android:drawableEnd="@drawable/ic_done_black"
+        android:text="@string/txt_how_to_pair_next_btn" />
+</LinearLayout>

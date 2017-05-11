@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--  instructions -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/searching_tip_step_3_view"
+    style="@style/pairing_step_tip_layout_style"
+    tools:showIn="@layout/view_pairing_searching">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/searching_microbit_step"
+            style="@style/pairing_step_tip_text_style"
+            android:paddingEnd="@dimen/pairing_step_searching_tip_text_padding_end"
+            android:text="@string/searching_tip_step_text" />
+
+        <TextView
+            android:id="@+id/searching_microbit_step_instructions"
+            style="@style/pairing_step_tip_text_style"
+            android:contentDescription="@string/desc_searching_tip_text"
+            android:text="@string/searching_tip_text_instructions" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/searching_emoji"
+        style="@style/pairing_step_image_layout_style"
+        android:src="@drawable/ic_where_are_you" />
+</LinearLayout>

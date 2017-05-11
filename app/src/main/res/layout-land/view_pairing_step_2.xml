@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/newDeviceView"
+    style="@style/pairing_step_layout_style"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/pairing_step_layout_margin"
+        android:layout_marginStart="@dimen/pairing_step_title_and_gif_layout_margin_start"
+        android:layout_marginTop="@dimen/pairing_step_layout_margin">
+
+        <!-- Title and a pattern grid -->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+            <!-- New Device title -->
+            <TextView
+                android:id="@+id/enter_pattern_step_2_title"
+                style="@style/pairing_step_header_style"
+                android:layout_alignParentTop="true"
+                android:text="@string/new_devices_pattern_null" />
+
+            <!-- Grid to enter pattern -->
+            <GridView
+                android:id="@+id/enter_pattern_step_2_gridview"
+                android:layout_width="@dimen/led_grid_width"
+                android:layout_height="@dimen/led_grid_width"
+                android:layout_below="@id/enter_pattern_step_2_title"
+                android:cacheColorHint="@color/cancel_button_up"
+                android:horizontalSpacing="@dimen/led_gap"
+                android:numColumns="5"
+                android:verticalSpacing="@dimen/led_gap" />
+        </RelativeLayout>
+
+        <!-- Step instruction and buttons -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Step description -->
+            <include layout="@layout/view_entering_pattern_step" />
+
+            <!-- Pairing confirmation buttons-->
+            <LinearLayout
+                android:id="@+id/enterPatternConfirmationView"
+                style="@style/pairing_step_buttons_layout_style"
+                android:paddingBottom="0dp">
+
+                <Button
+                    android:id="@+id/cancel_enter_pattern_step_2_btn"
+                    style="@style/pairing_step_button_style"
+                    android:layout_marginEnd="@dimen/pairing_step_buttons_space_margin"
+                    android:background="@drawable/cancel_btn"
+                    android:drawableEnd="@drawable/cancel_step_pairing_btn"
+                    android:text="@string/txt_cancel_btn"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/ok_enter_pattern_step_2_btn"
+                    style="@style/pairing_step_button_style"
+                    android:layout_marginStart="@dimen/pairing_step_buttons_space_margin"
+                    android:background="@drawable/green_btn"
+                    android:drawableEnd="@drawable/ic_done_black"
+                    android:text="@string/txt_pair_btn"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

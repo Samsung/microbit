@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="projectListSortOrder">
+		<item>Date ascending</item>
+		<item>Date descending</item>
+		<item>Name ascending</item>
+		<item>Name descending</item>
+	</array>
+
+    <array name="moreListItems">
+        <item>Help</item>
+        <item>About</item>
+		<item>Privacy Policy</item>
+		<item>Terms of Use</item>
+    </array>
+
+    <string-array name="website_array">
+        <item>Live</item>
+        <item>Stage</item>
+        <item>Test</item>
+    </string-array>
+</resources>

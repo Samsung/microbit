@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:gravity="center"
+    android:id="@+id/layout">
+
+    <ImageView
+        android:layout_width="@dimen/audio_mic_size"
+        android:layout_height="@dimen/audio_mic_size"
+        android:id="@+id/imageMic"
+        android:src="@drawable/not_recording"
+        android:paddingBottom="@dimen/audio_mic_paddingBottom"
+        />
+
+    <TextView
+        style="@style/p3"
+        android:id="@+id/filenameTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Ready?"
+        android:textColor="@color/white_color"
+        />
+
+    <Chronometer
+        style="@style/h3"
+        android:id="@+id/chronometer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="@dimen/audio_chrono_paddingTop"
+        android:textColor="@color/white_color"
+        />
+</LinearLayout>

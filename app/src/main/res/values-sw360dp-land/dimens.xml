@@ -1,0 +1,109 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_bottom_margin">24dp</dimen>
+    <dimen name="activity_top_margin">24dp</dimen>
+
+    <!-- Generic margin TODO maybe rename -->
+    <dimen name="widget_margin">5dp</dimen>
+    <dimen name="content_margin">16dp</dimen>
+
+    <!-- Generic Buttons TODO maybe remove-->
+    <dimen name="button_text_size">25sp</dimen>
+    <dimen name="button_size">80dp</dimen>
+    <dimen name="button_height">80dp</dimen>
+    <dimen name="elevation">4dp</dimen>
+
+    <!-- Header bar -->
+    <dimen name="header_right_margin">0dp</dimen>
+    <dimen name="header_btn_size">60dp</dimen>
+    <dimen name="header_device_name_max">500dp</dimen>
+    <dimen name="header_device_name_min">300dp</dimen>
+    <dimen name="header_title_height">60dp</dimen>
+    <dimen name="header_title_width">120dp</dimen>
+
+    <!-- Home UI -->
+    <dimen name="logo_area_margin">50dp</dimen>
+    <dimen name="logo_gap_margin">75dp</dimen>
+    <dimen name="home_connect_title_width">100dp</dimen>
+    <dimen name="home_project_title_width">100dp</dimen>
+    <dimen name="home_tile_bar_height">100dp</dimen>
+    <dimen name="home_device_name_width">310dp</dimen>
+    <dimen name="home_device_name_empty_width">600dp</dimen>
+    <dimen name="home_no_project_btn_width">310dp</dimen>
+    <dimen name="home_start_btn_width">80dp</dimen>
+    <dimen name="home_activity_margin">30dp</dimen>
+    <dimen name="home_button_height">80dp</dimen>
+
+    <!-- Project UI -->
+    <dimen name="project_name_width">950dp</dimen>
+    <dimen name="project_main_margin">50dp</dimen>
+    <bool name="expandProjectItem">true</bool>
+
+    <!-- Connect UI -->
+    <dimen name="connect_device_name_width">380dp</dimen>
+    <dimen name="divider_margin">20dp</dimen>
+    <dimen name="connect_ui_land_width">600dp</dimen>
+    <dimen name="mbit_tip_img_size">150dp</dimen>
+    <dimen name="button_gap_margin">75dp</dimen>
+    <dimen name="connect_lv_btn_width">50dp</dimen>
+    <dimen name="connect_lv_item_height">50dp</dimen>
+    <dimen name="connect_content_margin">5dp</dimen>
+    <dimen name="connect_tip_image_margin_top">2dp</dimen>
+    <dimen name="connect_tip_btn_margin_top">15dp</dimen>
+    <dimen name="tip_title_width">400dp</dimen>
+    <dimen name="tip_text_width">300dp</dimen>
+
+    <!-- Generic list view item -->
+    <dimen name="lv_txt_img_btn_width">480dp</dimen>
+    <dimen name="lv_btn_width">80dp</dimen>
+    <dimen name="lv_item_height">80dp</dimen>
+    <dimen name="lv_item_margin">16dp</dimen>
+
+    <!-- PopUp -->
+    <dimen name="popup_header_section_marginTop">10dp</dimen>
+    <dimen name="popup_buttons_section_paddingBottom">10dp</dimen>
+    <dimen name="popup_textinput_width">520dp</dimen>
+    <dimen name="popup_buttons_area_width">240dp
+    </dimen> <!-- distance between left button edge and right button edge -->
+    <dimen name="popup_button_size">80dp</dimen>
+    <dimen name="popup_paddingLeft">10dp</dimen>
+    <dimen name="popup_paddingRight">10dp</dimen>
+    <dimen name="popup_icon_size">80dp</dimen>
+    <dimen name="popup_body_view_paddingVertical">5dp
+    </dimen> <!-- spacing top/bottom between each view inside body section -->
+    <dimen name="popup_progressbar_height">15dp</dimen>
+
+    <!-- Audio Recorder -->
+    <dimen name="audio_mic_size">160dp</dimen>
+    <dimen name="audio_mic_paddingBottom">20dp</dimen>
+    <dimen name="audio_chrono_paddingTop">20dp</dimen>
+
+    <!-- Web View -->
+    <dimen name="refresh_btn_margin_top">10dp</dimen>
+    <dimen name="refresh_btn_margin_bottom">3dp</dimen>
+
+    <!--For Tray -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Pattern grid -->
+    <dimen name="led_gap">6dp</dimen>
+    <integer name="led_size">48</integer>
+    <dimen name="led_grid_width">264dp</dimen>
+
+    <!-- Pairing step screens -->
+    <dimen name="pairing_step_1_gif_image_width">290dp</dimen>
+    <dimen name="pairing_step_1_gif_image_height">230dp</dimen>
+    <dimen name="pairing_step_button_text_size">16sp</dimen>
+    <dimen name="pairing_step_cycle_progress_bar_size">80dp</dimen>
+
+
+    <!-- Popup screen -->
+    <dimen name="popup_linear_progress_bar_margin">18dp</dimen>
+    <dimen name="popup_round_ok_button_size">66dp</dimen>
+    <dimen name="popup_gif_size">128dp</dimen>
+</resources>

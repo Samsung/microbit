@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Paired micro:bits -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/prevDeviceView"
+    style="@style/connection_transparent_layout_style"
+    android:layout_gravity="top"
+    android:layout_margin="@dimen/connections_container_layout_margin"
+    tools:showIn="@layout/view_connect_microbit">
+
+    <!-- Connection status-->
+    <include layout="@layout/pairing_activity_connection_status" />
+
+    <Button
+        android:id="@+id/connected_device_status_button"
+        style="@style/pairing_device_state_button_style"
+        android:background="@drawable/grey_btn"
+        android:contentDescription="@null"
+        android:drawableRight="@drawable/device_status_disconnected" />
+</LinearLayout>

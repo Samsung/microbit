@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Manage micro:bits -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/manageDeviceView"
+    style="@style/pairing_manage_device_layout_style"
+    tools:showIn="@layout/view_connect_microbit">
+
+    <LinearLayout
+        style="@style/connection_transparent_layout_style"
+        android:paddingBottom="@dimen/connections_container_layout_padding">
+
+        <TextView
+            android:id="@+id/title_manage_microbit"
+            style="@style/white_header_text_style"
+            android:contentDescription="@string/desc_manage_and_remove_microbits_label"
+            android:nextFocusDown="@+id/img_pair_microbit"
+            android:text="@string/manage_and_remove_microbit" />
+
+        <LinearLayout style="@style/connection_description_and_smile_layout_style">
+
+            <TextView
+                android:id="@+id/description_manage_microbit"
+                style="@style/connection_description_text_style"
+                android:contentDescription="@string/desc_manage_microbit_txt"
+                android:nextFocusDown="@id/flash_projects_title_txt"
+                android:text="@string/manage_microbit_txt_one_line" />
+
+            <ImageView
+                android:id="@+id/img_pair_microbit"
+                style="@style/connection_smile_image_style"
+                android:contentDescription="@null"
+                android:nextFocusDown="@+id/connect_microbit_problems_message"
+                android:src="@drawable/ic_face" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/connect_microbit_problems_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:contentDescription="@string/desc_connect_microbit_problems_message"
+            android:focusable="true"
+            android:nextFocusDown="@id/flash_projects_title_txt"
+            android:text="@string/connect_microbit_problems_message"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/connection_having_problem_text_size" />
+
+    </LinearLayout>
+</LinearLayout>
+
+    

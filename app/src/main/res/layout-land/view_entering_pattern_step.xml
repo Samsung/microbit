@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!--  instructions -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pairingPatternTipView"
+    style="@style/pairing_step_tip_layout_style"
+    tools:showIn="@layout/view_pairing_step_2">
+
+    <TextView
+        android:id="@+id/pair_enter_pattern_step_2"
+        style="@style/pairing_step_tip_text_style"
+        android:textSize="@dimen/pairing_step_title_text_size"
+        android:contentDescription="@string/desc_connect_tip_text_step_two"
+        android:text="@string/step_connect_tip_text_step_two" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/pair_enter_pattern_step_2_instructions"
+            style="@style/pairing_step_tip_text_style"
+            android:layout_width="@dimen/pairing_step_text_width"
+            android:layout_alignBottom="@id/oh_pretty_emoji"
+            android:textSize="@dimen/pairing_step_tip_instruction_text_size"
+            android:contentDescription="@string/desc_enter_pattern_tip_text"
+            android:text="@string/enter_pattern_tip_text_one_line" />
+
+        <ImageView
+            android:id="@+id/oh_pretty_emoji"
+            style="@style/pairing_step_image_layout_style"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/emoji_entering_pattern_valid_pattern" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

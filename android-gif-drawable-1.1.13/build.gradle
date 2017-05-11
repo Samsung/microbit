@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('android-gif-drawable-1.1.13.aar'))

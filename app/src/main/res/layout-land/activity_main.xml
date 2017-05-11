@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/connectBarView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.activity.HomeActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <!--pairing animation-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/homeHelloAnimationGifView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/main_activity_gif_image_margin"
+            android:contentDescription="@string/desc_homescreen_logo_img"
+            android:foregroundGravity="center"
+            android:nextFocusDown="@+id/connect_device_btn"
+            android:scrollbars="none" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/buttons_layout_margin"
+        android:layout_marginEnd="@dimen/buttons_layout_margin"
+        android:layout_marginStart="@dimen/buttons_layout_margin">
+        <!-- Connections -->
+        <Button
+            android:id="@+id/connect_device_btn"
+            style="@style/main_activity_button_style"
+            android:contentDescription="@string/desc_connect_btn"
+            android:drawableTop="@drawable/ic_connect"
+            android:nextFocusDown="@+id/flash_microbit_btn"
+            android:text="@string/connect_device" />
+
+        <!-- Flash -->
+        <Button
+            android:id="@+id/flash_microbit_btn"
+            style="@style/main_activity_button_style"
+            android:contentDescription="@string/desc_flash_btn"
+            android:drawableTop="@drawable/ic_flash"
+            android:nextFocusDown="@+id/create_code_btn"
+            android:text="@string/flash_microbit" />
+
+        <!-- create code -->
+        <Button
+            android:id="@+id/create_code_btn"
+            style="@style/main_activity_button_style"
+            android:contentDescription="@string/desc_create_code"
+            android:drawableTop="@drawable/ic_create_code"
+            android:nextFocusDown="@+id/discover_btn"
+            android:text="@string/create_code" />
+
+        <!-- Discover -->
+        <Button
+            android:id="@+id/discover_btn"
+            style="@style/main_activity_button_style"
+            android:contentDescription="@string/desc_discover"
+            android:drawableTop="@drawable/ic_discover"
+            android:text="@string/discover" />
+    </LinearLayout>
+</LinearLayout>

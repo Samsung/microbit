@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/debugMenu"
+        android:checkableBehavior="single">
+    <item android:id="@+id/live"
+          android:title="@string/menu_live"
+          android:orderInCategory="100"
+          />
+    <item android:id="@+id/stage"
+          android:title="@string/menu_stage"
+          android:orderInCategory="101"
+          />
+    <item android:id="@+id/test"
+        android:title="@string/menu_test"
+        android:orderInCategory="102"
+        />
+    </group>
+</menu>

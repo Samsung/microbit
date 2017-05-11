@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/connectDeviceView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar-->
+    <include layout="@layout/pairing_toolbar" />
+    <!-- Pairing state-->
+    <include layout="@layout/pairing_device_state" />
+    <!-- Manage devices -->
+    <include layout="@layout/pairing_manage_devices" />
+    <!-- Start pairing-->
+    <include layout="@layout/view_divider" />
+    <include layout="@layout/pairing_start_pairing_devices" />
+
+</LinearLayout>

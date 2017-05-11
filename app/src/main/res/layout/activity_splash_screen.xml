@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_screen_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:id="@+id/splash_screen_logo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/splash_screen_devby_text"
+            style="@style/p2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/splash_screen_logo"
+            android:layout_centerHorizontal="true"
+            android:text="@string/developed_by"
+            android:textColor="@color/splash_screen_text_color"
+            android:textSize="@dimen/splash_screen_text_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/splash_screen_logo"
+            android:layout_width="@dimen/splash_screen_logo_width"
+            android:layout_height="@dimen/splash_screen_logo_height"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/splash_screen_logo_margin_top"
+            android:src="@drawable/samsung_logo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/splash_screen_gif_image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/splash_screen_gif_image_layout_padding">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/splash_screen_gif_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/splash_face" />
+
+        <ImageView
+            android:id="@+id/splash_screen_gif_image_first_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/splash_screen_first_frame" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.samsung.microbit"
+          android:versionCode="12"
+          android:versionName="2.0">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"  android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"  android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+
+
+    <supports-screens android:normalScreens="true" />
+    <supports-screens android:largeScreens="true" />
+    <supports-screens android:xlargeScreens="true" />
+
+    <application
+        android:name=".MBApp"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".ui.activity.HomeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/home_activity_name"
+            android:launchMode="singleTop"/>
+
+        <!-- label was changed(removed colon), because some file managers (e.g. Total Commander) cannot open the activity.-->
+        <activity
+            android:name=".ui.activity.ProjectActivity"
+            android:label="@string/app_name_without_colon"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="adjustResize"
+            android:launchMode="singleTask">
+            <!-- Intent filters for open micro:bit app, accord to user request -->
+
+
+            <!-- This filter works, when request - open file from File Manager -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:host="*"
+                      android:mimeType="*/*"
+                      android:pathPattern=".*\\.hex"
+                      android:scheme="file"/>
+            </intent-filter>
+
+            <!-- This filter works, when request - open download from Internet Browser list (Android 6.0) -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:mimeType="application/x-microbit-hex"
+                      android:scheme="content"/>
+            </intent-filter>
+
+            <!-- This filter works, when request - open file from File Share app. (Google Drive, DropBox, etc.) -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:mimeType="application/octet-stream"
+                      android:scheme="content"/>
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".ui.activity.NotificationActivity"
+            android:label="@string/device_details"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.PairingActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_connect"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity
+            android:name=".ui.activity.PopUpActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTask"
+            android:theme="@style/PopUpTheme"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".ui.activity.AudioRecorderActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Audio Recorder"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.CameraActivity_OldAPI"
+            android:label="Camera Microbit"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <activity
+            android:name=".ui.activity.HelpWebView"
+            android:configChanges="orientation|screenSize"
+            android:label="Help Webview"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            >
+        </activity>
+        <activity
+            android:name=".ui.activity.CameraActivityPermissionChecker"
+            android:label="@string/title_activity_camera_activity_permission_checker"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <service
+            android:name=".service.DfuService"
+            android:enabled="true"/>
+
+        <service
+            android:name=".service.PluginService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":PluginService"/>
+        <service
+            android:name=".service.BLEService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":BLEService"/>
+
+        <service
+            android:name=".service.IPCService"
+            android:enabled="true"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.activity.SplashScreenActivity"
+            android:screenOrientation="locked"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".core.PopUpServiceReceiver"
+                  android:exported="false">
+            <intent-filter>
+                <action android:name="com.samsung.microbit.core.SHOWFROMSERVICE"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

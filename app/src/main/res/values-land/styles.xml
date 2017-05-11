@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main activity styles -->
+    <style name="main_activity_button_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/main_activity_button_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:background">@drawable/grey_transparent_btn</item>
+        <item name="android:elevation">@dimen/elevation</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:paddingTop">@dimen/button_padding_top</item>
+        <item name="android:textSize">@dimen/main_activity_button_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <!-- Connect screen styles -->
+    <style name="pairing_manage_device_layout_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingBottom">@dimen/connections_container_layout_padding</item>
+        <item name="android:paddingEnd">@dimen/connections_container_layout_padding</item>
+        <item name="android:paddingStart">@dimen/connections_container_layouts_indentation</item>
+        <item name="android:paddingTop">@dimen/connections_container_layout_padding_top</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="pair_new_microbit_button_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Pairing step screens styles -->
+    <style name="pairing_step_tip_layout_style" parent="match_width_parent_wrap_height_content">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingStart">@dimen/pairing_step_tip_padding</item>
+        <item name="android:paddingEnd">@dimen/pairing_step_tip_padding</item>
+    </style>
+
+    <style name="pairing_step_header_style" parent="white_header_text_style">
+        <item name="android:textSize">@dimen/pairing_step_title_text_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="pairing_step_buttons_layout_style" parent="match_width_parent_wrap_height_content">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:paddingStart">@dimen/pairing_step_button_layout_padding</item>
+        <item name="android:paddingEnd">@dimen/pairing_step_button_layout_padding</item>
+    </style>
+
+    <!-- Popup screen styles -->
+    <style name="popup_buttons_layout_style">
+        <item name="android:weightSum">3</item>
+    </style>
+</resources>

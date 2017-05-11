@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pairTipView"
+    style="@style/pairing_step_layout_style">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/pairTipTitle"
+        style="@style/pairing_step_header_style"
+        android:text="@string/connect_tip_title" />
+
+    <!-- Images -->
+    <LinearLayout
+        android:id="@+id/tipImageView"
+        style="@style/pairing_step_central_image_layout_style">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/pair_tip_step_1_giff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/pairing_step_gif_image_margin"
+            android:src="@drawable/how_to_pair_microbit" />
+    </LinearLayout>
+
+    <!-- Step description -->
+    <include layout="@layout/pair_microbit_step" />
+
+    <!-- Confirmation buttons -->
+    <include layout="@layout/pairing_tip_action_buttons" />
+</LinearLayout>

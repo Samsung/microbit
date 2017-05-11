@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    style="@style/popup_layout_style">
+
+    <RelativeLayout
+        android:id="@+id/pop_gif_and_image_view_layout"
+        style="@style/popup_images_layout_style">
+
+        <!-- Non animated images for flashing-->
+        <ImageView
+            android:id="@+id/image_icon"
+            style="@style/popup_image_style"
+            android:visibility="gone" />
+
+        <!-- Loading Giffs -->
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/pop_up_gif_image_view"
+            style="@style/popup_gif_image_style"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <!-- Body of pop up - main text area, loader etc-->
+    <LinearLayout
+        android:id="@+id/pop_body_layout"
+        style="@style/popup_content_layout_style">
+
+        <!-- Pop up  title-->
+        <TextView
+            android:id="@+id/flash_projects_title_txt"
+            style="@style/pairing_step_header_style"
+            android:paddingBottom="@dimen/popup_title_padding_bottom"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/popup_title"
+            android:visibility="gone" />
+
+        <!-- Flashing progress bar -->
+        <!-- Connecting /disconnecting spinner -->
+        <!-- Keep the screen on during flashing and connecting-->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/popup_progressbar_height"
+            android:layout_marginBottom="@dimen/popup_linear_progress_bar_margin"
+            android:layout_marginTop="@dimen/popup_linear_progress_bar_margin"
+            android:indeterminate="false"
+            android:keepScreenOn="true"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/blue_progress_bar"
+            android:visibility="gone" />
+
+        <!-- Connecting /disconnecting spinner -->
+        <!-- Keep the screen on during flashing and connecting-->
+        <ProgressBar
+            android:id="@+id/spinnerBar"
+            android:layout_width="@dimen/pairing_step_cycle_progress_bar_size"
+            android:layout_height="@dimen/pairing_step_cycle_progress_bar_size"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/popup_spinner_progress_bar_margin"
+            android:layout_marginTop="@dimen/popup_spinner_progress_bar_margin"
+            android:indeterminateDrawable="@drawable/white_progress_bar"
+            android:indeterminateDuration="@integer/pairing_step_cycle_progress_bar_duration"
+            android:keepScreenOn="true"
+            android:visibility="gone" />
+        <!-- Subtitle text, messages about status-->
+        <TextView
+            android:id="@+id/messageTxt"
+            style="@style/pairing_step_tip_text_style"
+            android:textSize="@dimen/pairing_step_tip_instruction_text_size"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/pop_up_subtitle_text"
+            android:textAlignment="center"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <!-- User confirmation [OK, cancel etc] -->
+    <LinearLayout
+        android:id="@+id/popup_bottom_layout"
+        style="@style/popup_buttons_layout_style"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="bottom|center_horizontal"
+        android:padding="@dimen/pairing_step_button_layout_padding">
+
+        <!-- User Cancel  -->
+        <Button
+            android:id="@+id/imageButtonCancel"
+            style="@style/pairing_step_button_style"
+            android:layout_marginEnd="@dimen/pairing_step_buttons_space_margin"
+            android:background="@drawable/cancel_btn"
+            android:drawableEnd="@drawable/cancel_step_pairing_btn"
+            android:onClick="onClick"
+            android:text="@string/txt_cancel_btn"
+            android:visibility="gone" />
+
+        <!-- User OK with Cancel  -->
+        <Button
+            android:id="@+id/imageButtonOk"
+            style="@style/pairing_step_button_style"
+            android:layout_marginStart="@dimen/pairing_step_buttons_space_margin"
+            android:background="@drawable/green_btn"
+            android:drawableEnd="@drawable/ic_done_black"
+            android:onClick="onClick"
+            android:text="@string/ok_button_label"
+            android:visibility="gone" />
+
+        <!-- User OK  -->
+        <Button
+            android:id="@+id/affirmationOKBtn"
+            android:layout_width="@dimen/popup_round_ok_button_size"
+            android:layout_height="@dimen/popup_round_ok_button_size"
+            android:background="@drawable/popup_ok_button"
+            android:onClick="onClick"
+            android:text="@string/ok_button_label"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/popup_round_ok_button_text_size"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>
+
+

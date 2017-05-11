@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!-- app bar-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/headerBar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/main_gray_color"
+    android:elevation="@dimen/activity_bottom_margin"
+    tools:showIn="@layout/view_connect_microbit">
+
+    <!-- Back button -->
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/desc_connect_back_to_home_btn"
+        android:nextFocusDown="@layout/pairing_device_state"
+        android:nextFocusRight="@layout/pairing_device_state"
+        android:onClick="onClick"
+        android:padding="@dimen/app_bar_back_btn_padding"
+        android:src="@drawable/ic_back_arrow" />
+
+    <!-- Small divider -->
+    <include layout="@layout/app_bar_small_divider" />
+
+    <TextView
+        android:id="@+id/flash_projects_title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/desc_connect_btn"
+        android:nextFocusDown="@id/backBtn"
+        android:nextFocusRight="@id/backBtn"
+        android:text="@string/connect_device"
+        android:textSize="@dimen/app_bar_title_text_size"
+        android:textColor="@color/white_color" />
+
+</LinearLayout>

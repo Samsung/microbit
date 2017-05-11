@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval" >
+            <solid android:color="@color/ok_button_down"
+                android:angle="270"/>
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval" >
+            <solid android:color="@color/ok_button_up"
+                android:angle="270"/>
+        </shape>
+    </item>
+</selector>

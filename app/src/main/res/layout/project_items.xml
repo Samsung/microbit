@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/grey_btn">
+
+    <Button
+        android:id="@+id/appNameButton"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_bg"
+        android:drawableEnd="@drawable/ic_arrow_down"
+        android:gravity="start|center_vertical"
+        android:longClickable="true"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/project_items_text_size" />
+
+    <com.samsung.microbit.ui.control.ExtendedEditText
+        android:id="@+id/appNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editor_grey_bg"
+        android:gravity="start|center_vertical"
+        android:inputType="textNoSuggestions|textVisiblePassword"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/project_items_text_size"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/actionBarForProgram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appNameButton"
+        android:layout_marginBottom="@dimen/custom_button_start_margin"
+        android:layout_marginTop="@dimen/project_item_action_bar_layout_margin">
+
+        <!-- Flash button -->
+        <include layout="@layout/custom_project_items_button" />
+
+        <!-- Delete button -->
+        <ImageButton
+            android:id="@+id/deleteBtn"
+            android:layout_width="@dimen/project_item_buttons_size"
+            android:layout_height="@dimen/project_item_buttons_size"
+            android:layout_marginEnd="@dimen/image_delete_button_margin_end"
+            android:background="@drawable/red_btn"
+            android:contentDescription="@string/desc_delete_project_btn"
+            android:src="@drawable/ic_trash" />
+    </LinearLayout>
+</RelativeLayout>

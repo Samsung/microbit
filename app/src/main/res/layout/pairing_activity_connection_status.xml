@@ -1,0 +1,4 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/device_status_txt"
+    style="@style/white_header_text_style"
+    android:text="@string/previous_devices" />

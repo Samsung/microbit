@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sendBtn"
+    android:gravity="center"
+    android:layout_width="0dp"
+    android:layout_height="@dimen/project_item_buttons_size"
+    android:layout_marginEnd="@dimen/custom_button_end_margin"
+    android:layout_marginStart="@dimen/custom_button_start_margin"
+    android:layout_weight="1"
+    android:background="@drawable/blue_btn"
+
+    tools:showIn="@layout/project_items">
+
+    <ImageView
+        style="@style/custom_button_image"
+        android:contentDescription="@string/desc_send_project_btn"
+        android:src="@drawable/flash_project" />
+
+    <TextView
+        android:id="@+id/project_item_text"
+        style="@style/custom_button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/flash" />
+</LinearLayout>

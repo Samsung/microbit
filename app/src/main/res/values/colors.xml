@@ -1,0 +1,40 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="actionMenuTitleTextColor">#00000000</color>
+    <color name="actionMenuTextColor">#0F0F0FF0</color>
+    <color name="pop_up_background">#FF000000</color>
+    <color name="divider_color">#ff000000</color>
+    <color name="black_color">#ff000000</color>
+    <color name="white_color">#ffffff</color>
+    <color name="gray_color">#666666</color>
+    <color name="light_gray_color">#dcdcdc</color>
+    <color name="darkgray_color">#414141</color>
+    <color name="main_gray_color">#383838</color>
+    <color name="main_gray_transparent_color">#e6383838</color>
+    <color name="main_gray_transparent_60_opacity_color">#9a383838</color>
+    <color name="main_gray_trans_20_opacity_container_color">#33383838</color>
+    <color name="grey_highlight">#424242</color>
+    <color name="grey_transparent_highlight">#d0424242</color>
+    <color name="grey_trans_20_opacity_container_highlight">#33424242</color>
+    <color name="ok_button_up">#00EC00</color>
+    <color name="ok_button_down">#3A871F</color>
+
+    <color name="cancel_button_up">#FD645B</color>
+    <color name="cancel_button_down">#AA6666</color>
+    <color name="cancel_button">#FD645B</color>
+
+    <color name="blue_button_up">#3bddff</color>
+    <color name="blue_button_flash">#1CC6FD</color>
+    <color name="blue_button_down">#37abff</color>
+    <color name="progress_bar_progressed">#16cffd</color>
+    <color name="progress_bar_not_progressed">#333333</color>
+
+    <color name="yellow_button_up">#ffCC31</color>
+    <color name="yellow_button_down">#d3a331</color>
+    <color name="accent_material_light_1">#d7dbdb</color>
+    <color name="gray_green">#394535</color>
+
+    <color name="custom_button_text">#525252</color>
+    <color name="splash_screen_text_color">#14289f</color>
+</resources>
