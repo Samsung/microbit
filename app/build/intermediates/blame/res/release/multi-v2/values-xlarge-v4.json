@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "/home/SERILOCAL/s.kondu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.0.aar/46e8d92b01ce889496a8e222bc13e299/res/values-xlarge/values-xlarge.xml",
+                    "from": {
+                        "startLines": "4,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "289,601,672,743,813,883,951,1019,1083",
+                        "endColumns": "76,70,70,69,69,67,67,63,54",
+                        "endOffsets": "361,667,738,808,878,946,1014,1078,1133"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,132,203,274,344,414,482,550,614",
+                        "endColumns": "76,70,70,69,69,67,67,63,54",
+                        "endOffsets": "127,198,269,339,409,477,545,609,664"
+                    }
+                }
+            ]
+        }
+    ]
+}

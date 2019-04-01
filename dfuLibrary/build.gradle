@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '22.0.0'
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         minSdkVersion 19
@@ -18,9 +18,9 @@ android {
 }
 
 dependencies {
-    compile 'com.google.code.gson:gson:2.2.1'
-    compile 'com.android.support:appcompat-v7:23.0.0'
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.android.support:appcompat-v7:23.0.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
 
 

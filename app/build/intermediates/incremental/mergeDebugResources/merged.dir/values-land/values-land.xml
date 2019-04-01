@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="expandProjectItem">true</bool>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
+    <dimen name="activity_bottom_margin">24dp</dimen>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_top_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="audio_chrono_paddingTop">10dp</dimen>
+    <dimen name="audio_mic_paddingBottom">10dp</dimen>
+    <dimen name="audio_mic_size">100dp</dimen>
+    <dimen name="button_gap_margin">75dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="button_margin">4dp</dimen>
+    <dimen name="button_padding_top">14dp</dimen>
+    <dimen name="button_size">60dp</dimen>
+    <dimen name="button_text_size">25sp</dimen>
+    <dimen name="buttons_layout_margin">8dp</dimen>
+    <dimen name="connect_content_margin">6dp</dimen>
+    <dimen name="connect_device_name_width">450dp</dimen>
+    <dimen name="connect_lv_btn_width">40dp</dimen>
+    <dimen name="connect_lv_item_height">45dp</dimen>
+    <dimen name="connect_tip_btn_margin_top">5dp</dimen>
+    <dimen name="connect_tip_image_margin_top">10dp</dimen>
+    <dimen name="connections_container_layout_margin">0dp</dimen>
+    <dimen name="connections_container_layout_padding_top">16dp</dimen>
+    <dimen name="connections_container_layouts_indentation">8dp</dimen>
+    <dimen name="connections_container_with_button_margin">16dp</dimen>
+    <dimen name="content_margin">10dp</dimen>
+    <dimen name="custom_button_margin">8dp</dimen>
+    <dimen name="device_lv_bottom_margin">70dp</dimen>
+    <dimen name="device_main_margin">16dp</dimen>
+    <dimen name="elevation">4dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="header_btn_size">50dp</dimen>
+    <dimen name="header_device_name_max">500dp</dimen>
+    <dimen name="header_device_name_min">300dp</dimen>
+    <dimen name="header_right_margin">0dp</dimen>
+    <dimen name="header_title_height">60dp</dimen>
+    <dimen name="header_title_width">100dp</dimen>
+    <dimen name="home_activity_margin">10dp</dimen>
+    <dimen name="home_button_height">65dp</dimen>
+    <dimen name="home_connect_title_width">150dp</dimen>
+    <dimen name="home_device_name_empty_width">585dp</dimen>
+    <dimen name="home_device_name_width">180dp</dimen>
+    <dimen name="home_no_project_btn_width">180dp</dimen>
+    <dimen name="home_project_title_width">150dp</dimen>
+    <dimen name="home_start_btn_width">300dp</dimen>
+    <dimen name="home_tile_bar_height">80dp</dimen>
+    <dimen name="led_gap">4dp</dimen>
+    <dimen name="led_grid_width">226dp</dimen>
+    <dimen name="logo_area_margin">50dp</dimen>
+    <dimen name="logo_gap_margin">15dp</dimen>
+    <dimen name="lv_btn_width">60dp</dimen>
+    <dimen name="lv_item_height">60dp</dimen>
+    <dimen name="lv_item_margin">6dp</dimen>
+    <dimen name="lv_txt_img_btn_width">365dp</dimen>
+    <dimen name="main_activity_button_height">80dp</dimen>
+    <dimen name="main_activity_button_text_size">14sp</dimen>
+    <dimen name="main_activity_gif_image_margin">16dp</dimen>
+    <dimen name="main_activity_layout_padding">8dp</dimen>
+    <dimen name="mbit_tip_img_size">125dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="pair_new_microbit_button_layout_margin">0dp</dimen>
+    <dimen name="pairing_step_1_gif_image_height">210dp</dimen>
+    <dimen name="pairing_step_1_gif_image_width">270dp</dimen>
+    <dimen name="pairing_step_button_height">58dp</dimen>
+    <dimen name="pairing_step_button_layout_padding">8dp</dimen>
+    <dimen name="pairing_step_button_text_size">13sp</dimen>
+    <dimen name="pairing_step_buttons_space_margin">4dp</dimen>
+    <dimen name="pairing_step_cycle_progress_bar_size">60dp</dimen>
+    <dimen name="pairing_step_layout_margin">8dp</dimen>
+    <dimen name="pairing_step_text_width">140dp</dimen>
+    <dimen name="pairing_step_tip_instruction_text_size">16sp</dimen>
+    <dimen name="pairing_step_tip_layout_height_padding">0dp</dimen>
+    <dimen name="pairing_step_tip_padding">8dp</dimen>
+    <dimen name="pairing_step_tip_title_margin_bottom">8dp</dimen>
+    <dimen name="pairing_step_title_and_gif_layout_margin_start">8dp</dimen>
+    <dimen name="pairing_step_title_text_size">20sp</dimen>
+    <dimen name="popup_body_view_paddingVertical">5dp
+    </dimen>
+    <dimen name="popup_button_size">60dp</dimen>
+    <dimen name="popup_buttons_area_width">180dp
+    </dimen>
+    <dimen name="popup_buttons_section_paddingBottom">10dp</dimen>
+    <dimen name="popup_gif_size">110dp</dimen>
+    <dimen name="popup_header_section_marginTop">10dp</dimen>
+    <dimen name="popup_icon_size">60dp</dimen>
+    <dimen name="popup_paddingLeft">20dp</dimen>
+    <dimen name="popup_paddingRight">20dp</dimen>
+    <dimen name="popup_progressbar_height">15dp</dimen>
+    <dimen name="popup_round_ok_button_size">56dp</dimen>
+    <dimen name="popup_spinner_progress_bar_margin">0dp</dimen>
+    <dimen name="popup_textinput_width">460dp</dimen>
+    <dimen name="project_item_buttons_size">57dp</dimen>
+    <dimen name="project_item_lists_indentation">8dp</dimen>
+    <dimen name="project_items_layout_margin_top">8dp</dimen>
+    <dimen name="project_items_layout_padding">16dp</dimen>
+    <dimen name="project_main_margin">50dp</dimen>
+    <dimen name="project_name_width">406dp</dimen>
+    <dimen name="refresh_btn_margin_bottom">8dp</dimen>
+    <dimen name="refresh_btn_margin_top">10dp</dimen>
+    <dimen name="tip_text_width">250dp</dimen>
+    <dimen name="tip_title_width">300dp</dimen>
+    <dimen name="widget_margin">5dp</dimen>
+    <integer name="led_size">42</integer>
+    <integer name="pairing_searching_step_button_layout_weight_sum">3</integer>
+    <integer name="project_my_scripts_button_weight">1</integer>
+    <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="main_activity_button_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/main_activity_button_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:background">@drawable/grey_transparent_btn</item>
+        <item name="android:elevation">@dimen/elevation</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:paddingTop">@dimen/button_padding_top</item>
+        <item name="android:textSize">@dimen/main_activity_button_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="pair_new_microbit_button_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="pairing_manage_device_layout_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingBottom">@dimen/connections_container_layout_padding</item>
+        <item name="android:paddingEnd">@dimen/connections_container_layout_padding</item>
+        <item name="android:paddingStart">@dimen/connections_container_layouts_indentation</item>
+        <item name="android:paddingTop">@dimen/connections_container_layout_padding_top</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="pairing_step_buttons_layout_style" parent="match_width_parent_wrap_height_content">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:paddingStart">@dimen/pairing_step_button_layout_padding</item>
+        <item name="android:paddingEnd">@dimen/pairing_step_button_layout_padding</item>
+    </style>
+    <style name="pairing_step_header_style" parent="white_header_text_style">
+        <item name="android:textSize">@dimen/pairing_step_title_text_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="pairing_step_tip_layout_style" parent="match_width_parent_wrap_height_content">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingStart">@dimen/pairing_step_tip_padding</item>
+        <item name="android:paddingEnd">@dimen/pairing_step_tip_padding</item>
+    </style>
+    <style name="popup_buttons_layout_style">
+        <item name="android:weightSum">3</item>
+    </style>
+</resources>

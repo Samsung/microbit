@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/SERILOCAL/s.kondu/.gradle/caches/transforms-1/files-1.1/design-23.1.0.aar/906edf4eb2768b90ad629082fb7768ce/res/values-sw600dp/values-sw600dp.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,13,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "285,355,426,498,556,614,720,1014,1307",
+                        "endLines": "4,5,6,7,8,9,10,13,19",
+                        "endColumns": "69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "350,421,493,551,609,715,779,1072,1484"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,30,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "606,676,747,819,877,935,1041,1828,1933",
+                        "endLines": "10,11,12,13,14,15,16,30,35",
+                        "endColumns": "69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "671,742,814,872,930,1036,1100,1886,2110"
+                    }
+                },
+                {
+                    "source": "/home/SERILOCAL/s.kondu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.0.aar/46e8d92b01ce889496a8e222bc13e299/res/values-sw600dp/values-sw600dp.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,10,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "291,360,430,504,816,1111,1182,1250",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "355,425,499,575,870,1177,1245,1300"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,29",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,194,268,344,403,474,1773",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "119,189,263,339,398,469,537,1823"
+                    }
+                },
+                {
+                    "source": "/home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/app/src/main/res/values-sw600dp/dimens.xml",
+                    "from": {
+                        "startLines": "11,17,19,14,10,24,22,23,4,7,5,6,3,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "478,640,720,569,411,908,796,853,137,325,207,268,82,678",
+                        "endColumns": "63,37,46,43,66,59,56,54,69,56,60,56,54,41",
+                        "endOffsets": "537,673,762,608,473,963,848,903,202,377,263,320,132,715"
+                    },
+                    "to": {
+                        "startLines": "9,17,18,19,20,21,22,23,24,25,26,27,28,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "542,1105,1143,1190,1234,1301,1361,1418,1473,1543,1600,1661,1718,1891",
+                        "endColumns": "63,37,46,43,66,59,56,54,69,56,60,56,54,41",
+                        "endOffsets": "601,1138,1185,1229,1296,1356,1413,1468,1538,1595,1656,1713,1768,1928"
+                    }
+                }
+            ]
+        }
+    ]
+}

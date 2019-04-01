@@ -1,0 +1,4 @@
+#Fri Mar 08 12:56:24 GMT 2019
+base.0=/home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex

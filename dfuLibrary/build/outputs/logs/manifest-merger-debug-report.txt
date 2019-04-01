@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:1:1-9:12
+	package
+		ADDED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:2:5-37
+		INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+		INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+		INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+		INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml:8:22-71
+uses-sdk
+INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+		ADDED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+		INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+		ADDED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
+		INJECTED from /home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/dfuLibrary/src/main/AndroidManifest.xml
