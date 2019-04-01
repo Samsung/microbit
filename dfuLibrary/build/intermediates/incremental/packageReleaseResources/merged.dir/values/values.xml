@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DfuLibrary</string>
+    <string name="dfu_action_abort">Cancel</string>
+    <string name="dfu_status_aborted">Aborted</string>
+    <string name="dfu_status_aborted_msg">Application flashing has been aborted. Please reset micro:bit and try again.</string>
+    <string name="dfu_status_aborting">Aborting…</string>
+    <string name="dfu_status_completed">Flashing successful</string>
+    <string name="dfu_status_completed_msg">Application has been send successfully.</string>
+    <string name="dfu_status_connecting">Finding …</string>
+    <string name="dfu_status_connecting_msg">Finding micro:bit - %s…</string>
+    <string name="dfu_status_disconnecting">Disconnecting…</string>
+    <string name="dfu_status_disconnecting_msg">Disconnecting from %s…</string>
+    <string name="dfu_status_error">Flashing unsuccessful</string>
+    <string name="dfu_status_error_msg">Flashing unsuccessful. Please reset micro:bit and try again.</string>
+    <string name="dfu_status_initializing">Initializing…</string>
+    <string name="dfu_status_starting">Starting DFU…</string>
+    <string name="dfu_status_starting_msg">Initializing flashing process…</string>
+    <string name="dfu_status_switching_to_dfu">Starting Flash mode…</string>
+    <string name="dfu_status_switching_to_dfu_msg">Waiting for flash mode…</string>
+    <string name="dfu_status_uploading">Flashing…</string>
+    <string name="dfu_status_uploading_components_msg">Transmitting components to %s…</string>
+    <string name="dfu_status_uploading_msg">Flashing application to %s…</string>
+    <string formatted="false" name="dfu_status_uploading_part">Flashing part %d/%d…</string>
+    <string name="dfu_status_validating">Validating…</string>
+    <string name="dfu_status_validating_msg">Checking the pairing code…</string>
+    <string name="dfu_unknown_name">unnamed device</string>
+    <string name="dfu_validation_failed">Validation failed or Timeout. Please reset micro:bit and try again.</string>
+</resources>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/app/src/main/res/values-sw720dp/dimens.xml",
+                    "from": {
+                        "startLines": "4,7,5,6,3",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "137,325,207,268,82",
+                        "endColumns": "69,56,60,56,54",
+                        "endOffsets": "202,377,263,320,132"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,125,182,243,300",
+                        "endColumns": "69,56,60,56,54",
+                        "endOffsets": "120,177,238,295,350"
+                    }
+                }
+            ]
+        }
+    ]
+}

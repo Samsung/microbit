@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz-rUZ/values-uz-rUZ.xml",
+            "map": [
+                {
+                    "source": "/home/SERILOCAL/s.kondu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.0.aar/46e8d92b01ce889496a8e222bc13e299/res/values-uz-rUZ/values-uz-rUZ.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "291,396,504,627,731,848,934,1045,1161,1241,1320,1404,1513,1620,1721,1829,1934,2039,2138",
+                        "endColumns": "104,107,122,103,116,85,110,115,79,78,83,108,106,100,107,104,104,98,100",
+                        "endOffsets": "391,499,622,726,843,929,1040,1156,1236,1315,1399,1508,1615,1716,1824,1929,2034,2133,2234"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,160,268,391,495,612,698,809,925,1005,1084,1168,1277,1384,1485,1593,1698,1803,1902",
+                        "endColumns": "104,107,122,103,116,85,110,115,79,78,83,108,106,100,107,104,104,98,100",
+                        "endOffsets": "155,263,386,490,607,693,804,920,1000,1079,1163,1272,1379,1480,1588,1693,1798,1897,1998"
+                    }
+                }
+            ]
+        }
+    ]
+}

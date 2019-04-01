@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/SERILOCAL/s.kondu/Projects/Android-Apps/Master-microbit/microbit/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/home/SERILOCAL/s.kondu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.0.aar/46e8d92b01ce889496a8e222bc13e299/res/values-large/values-large.xml",
+                    "from": {
+                        "startLines": "4,7,8,11,12,13,14,15,16,17,18,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "288,584,656,949,1020,1091,1161,1231,1299,1367,1431,1725,1829",
+                        "endColumns": "61,71,58,70,70,69,69,67,67,63,54,103,115",
+                        "endOffsets": "345,651,710,1015,1086,1156,1226,1294,1362,1426,1481,1824,1940"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,117,189,248,319,390,460,530,598,666,730,785,889",
+                        "endColumns": "61,71,58,70,70,69,69,67,67,63,54,103,115",
+                        "endOffsets": "112,184,243,314,385,455,525,593,661,725,780,884,1000"
+                    }
+                }
+            ]
+        }
+    ]
+}
